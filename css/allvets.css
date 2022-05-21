@@ -2166,7 +2166,7 @@ nav>ul.container li>ul>li>a {
 
 @media (max-width: 480px) {
     .vet-section .container .vet-box {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -2214,6 +2214,15 @@ nav>ul.container li>ul>li>a {
     -o-transition: var(--main-transition);
 }
 
+@media (max-width: 767px) {
+    .vet-section .container .vet-box picture {
+        width: 60px;
+        height: 60px;
+        top: -30px;
+        left: calc(100% - 30px);
+    }
+}
+
 .vet-section .container .vet-box.open picture {
     width: 100px;
     height: 100px;
@@ -2252,7 +2261,7 @@ nav>ul.container li>ul>li>a {
 }
 
 .vet-section .container .vet-box .box-header span.vet-name {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -2371,15 +2380,10 @@ nav>ul.container li>ul>li>a {
     -o-transition: var(--main-transition);
 }
 
-@media (min-width: 768px) {
-    .vet-section .container .vet-box.open .box-content .vet-info .info-value,
-    .vet-section .container .vet-box.open .box-content .vet-info .info-value a,
-    .vet-section .container .vet-box.open .box-content .vet-info .info-value svg {
-        font-size: 14px;
-    }
+@media (max-width: 767px) {
     .vet-section .container .vet-box.open .box-content .gmail-info .info-value a,
     .vet-section .container .vet-box.open .box-content .gmail-info .info-value svg {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 

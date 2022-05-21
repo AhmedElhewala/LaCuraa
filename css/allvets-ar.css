@@ -233,5 +233,11 @@ nav>ul.container li>ul {
     right: 0;
 }
 
+@media (max-width: 767px) {
+    .vet-section .container .vet-box picture {
+        left: -30px;
+    }
+}
+
 
 /* End vet */
