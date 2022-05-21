@@ -2371,6 +2371,18 @@ nav>ul.container li>ul>li>a {
     -o-transition: var(--main-transition);
 }
 
+@media (min-width: 768px) {
+    .vet-section .container .vet-box.open .box-content .vet-info .info-value,
+    .vet-section .container .vet-box.open .box-content .vet-info .info-value a,
+    .vet-section .container .vet-box.open .box-content .vet-info .info-value svg {
+        font-size: 14px;
+    }
+    .vet-section .container .vet-box.open .box-content .gmail-info .info-value a,
+    .vet-section .container .vet-box.open .box-content .gmail-info .info-value svg {
+        font-size: 12px;
+    }
+}
+
 .vet-section span.vet-link {
     margin-top: 50px;
     display: flex;
