@@ -2385,8 +2385,10 @@ nav>ul.container li>ul>li>a {
 }
 
 @media (max-width: 767px) {
-    .vet-section .container .vet-box.open .box-content .gmail-info .info-value a,
-    .vet-section .container .vet-box.open .box-content .gmail-info .info-value svg {
+    .vet-section .container .vet-box.open .box-content .vet-info .info-value a {
+        gap: 10px;
+    }
+    .vet-section .container .vet-box.open .box-content .gmail-info .info-value a {
         font-size: 12px;
     }
 }
