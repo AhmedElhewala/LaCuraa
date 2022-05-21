@@ -2179,6 +2179,10 @@ nav>ul.container li>ul>li>a {
 @media (min-width: 992px) {
     .vet-section .container .vet-box {
         width: 70%;
+        padding: 25px 15px;
+    }
+    .vet-section .container .vet-box.open {
+        padding: 100px 15px 60px;
     }
 }
 
