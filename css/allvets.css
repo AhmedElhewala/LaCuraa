@@ -2163,9 +2163,6 @@ nav>ul.container li>ul>li>a {
         width: 85%;
         padding: 25px 15px;
     }
-    .vet-section .container .vet-box.open {
-        padding: 100px 15px 60px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -2189,6 +2186,12 @@ nav>ul.container li>ul>li>a {
 .vet-section .container .vet-box.open {
     padding: 100px 25px 60px;
     margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .vet-section .container .vet-box.open {
+        padding: 100px 15px 60px;
+    }
 }
 
 .vet-section .container .vet-box.hide {
